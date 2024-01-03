@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import Entry, Label, Button, Listbox, Scrollbar, END
 
 # Belirli bir kelime setini kullanarak örnek bir kelime seti oluşturun
-kelime_seti = set(["python", "programlama", "veri", "makine", "öğrenme", "yapay", "zeka", "ileri", "İrtica", "İltica", "geri" , "Layık" ,"iğne" ,"uzay" , " Laik" , "Nüfuz" ,"Nüfus" , "Çekimser" , "Çekingen" , "Çekirge"])
+kelime_seti = set(["python", "programlama", "veri", "makine", "öğrenme", "yapay", "zeka", "ileri", "İrtica", "İltica", "geri" , "Layık" ,"iğne" ,"uzay" , " Laik" , "Nüfuz" ,"Nüfus" , "Çekimser" , "Çekingen" , "Çekirge" , "Mahsus" , "Mahsuz" ,"Masum" , "Mazlum" ,"piton" , "bidon"])
 
 def benzer_kelimeleri_bul(kelime):
     benzer_kelimeler = difflib.get_close_matches(kelime, kelime_seti, n=5, cutoff=0.6)
